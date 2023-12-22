@@ -1,0 +1,57 @@
+body {
+    background-color: #fff;
+    color: #ff66b2;
+    font-family: 'Arial', sans-serif; /* Change the font */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ff66b2;
+    font-size: 32px; /* Increase the font size */
+}
+
+a {
+    color: #ff66b2;
+    text-decoration: none;
+    font-size: 22px; /* Increase the font size */
+    margin: 10px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px;
+    font-size: 16px; /* Increase the font size */
+}
+
+input[type="submit"] {
+    background-color: #ff66b2;
+    color: #fff;
+    padding: 15px 30px; /* Make the buttons larger */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px; /* Increase the font size */
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3385;
+}

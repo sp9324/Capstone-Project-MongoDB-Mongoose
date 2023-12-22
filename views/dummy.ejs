@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/stylesDummy.css">
+</head>
+
+<body>
+    <ul>
+        <a href="/">Home</a>
+        <!-- List goes here if current second is even. -->
+        <%items.forEach(dummy=> { %>
+            <form action="/delete-dummy" method="POST">
+                <li><input type="checkbox" name="checkbox" value="<%= dummy._id %>" onChange="this.form.submit()" />
+                    <%= dummy.name %>
+                </li>
+                <%}) %>
+    </ul>
+   
+
+</body>
+
+</html>

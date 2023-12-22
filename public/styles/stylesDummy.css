@@ -1,0 +1,73 @@
+body {
+    background-color: #fff;
+    color: #ff66b2;
+    font-family: 'Arial', sans-serif; /* Change the font */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ff66b2;
+    font-size: 32px; /* Increase the font size */
+}
+
+a {
+    color: #ff66b2;
+    text-decoration: none;
+    font-size: 32px; /* Increase the font size */
+    margin: 10px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align the list */
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px; /* Increase the font size */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    color: #ff66b2;
+}
+
+button {
+    background-color: #ff66b2;
+    color: #fff;
+    padding: 15px 30px; /* Make the buttons larger */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 28px; /* Increase the font size */
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+/* Style for the Home link */
+a {
+    color: #ff66b2; /* Pink link color */
+    text-decoration: none;
+    font-size: 32px; /* Increase the font size */
+    display: block; /* Make the link a block element */
+    width: 100%; /* Take the full width of its container */
+    text-align: center; /* Center-align the text */
+}
